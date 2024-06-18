@@ -9,11 +9,11 @@ function Cloud() {
         <div className="container">
             <span className="text-white opacity-75" style={{fontSize: "14px"}}>
 
-            {/* <h2> Total cantidad: {
+            <h2> Total cantidad: {
                  cart.reduce(
                     (total, item) => total + item.quantity, 0)
             }
-            </h2> */}
+            </h2>
             {/* <h2>
                 Total: ${
                     cart.reduce(

@@ -36,7 +36,7 @@ function CountWidget({item}) {
     }, [stock])
 
     useEffect(() => {
-        console.log("Cart updated:", cart); 
+        
       }, [cart]);
 
     
@@ -66,7 +66,6 @@ function CountWidget({item}) {
                     {
                     addToCart(item, count), 
                     setStockAvaible(stockAvaible - count)
-                    console.log("Tenemos tanto stock disponible" + cart)
                     setCount(1)}}
                 >
 
